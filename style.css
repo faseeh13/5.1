@@ -1,0 +1,446 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Plus Jakarta Sans', sans-serif;
+}
+li{
+    list-style: none;
+    padding-top: 5px;
+    ;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+#p1{
+    font-size: 12px;
+}
+#p2{
+    color: blue;
+    font-size: 12px;
+}
+.whole{
+
+width:500px;
+height:3250px;
+background: #F6F7F9;
+position: relative;
+
+}
+.start{
+    width:300px;
+    
+    height:189.21px;
+    background:white;
+    position: absolute;
+top: 0;
+left: 0;
+}
+
+
+.head{
+    display: flex;
+   
+    width:250px;
+    justify-content: space-between;
+    margin: 20px 0 0 20px;
+
+}
+.head img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+ .search{
+    margin: 10px 0 0 20px;
+    width:200px;
+    border: 1px solid lightgray;
+    border-radius: 5px;  
+    height: 30px; 
+}
+.search i{
+    
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+    
+    
+}
+.search p {
+   
+   margin-left: 10px;
+   margin-top: 5px;
+     font-size:10px;
+     float: right;
+}
+.car1{
+    width:250px;
+    height:220px;
+    background: #5CAFFC;
+    border-radius: 10px;
+    margin: 20px 0 0 22px;
+
+    
+}
+ .car1 h2{
+    
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    top:120px;
+    left: 30px;
+}
+.car1 p{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top:150px;
+    left: 30px;
+}
+.car1 .btn{
+    color:white;
+    position: absolute;
+    top: 210px;
+    width: 100px;
+    height: 30px;
+    background: #3563E9;
+    border: none;
+    left: 30px;
+    border-radius: 5px;
+}
+.car1 img{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    
+}
+
+    
+    
+.up{
+    width:250px;
+    
+    position: relative;
+    top:350px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.up i{
+    padding-left: 5px;
+}
+.up .pick{
+    width:250px;
+    height: 120px;
+    background: #FFFFFF;
+    margin-left: 25px;
+    border-radius:5px;
+}
+.pick h3{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+.pick p{
+    padding:10px;
+    
+    font-size: 10px;
+}
+ section{
+    display: flex;
+    width:100%;
+}
+ .loc, .Date, .Time{
+    padding: 5px;
+}
+.up .Drop{
+    margin-top: 30px;
+    width:250px;
+    margin-left: 25px;
+    height: 120px;
+    background: white;
+    border-radius:5px;
+}
+.Drop h3{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+.Drop p{
+    padding:10px;
+    
+    font-size: 10px;
+}
+.para{
+    top:650px ;
+    position: absolute;
+    left: 22px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+ 
+.cat{
+    position: absolute;
+    top: 650px;
+    display: flex;
+}
+
+.cat1{
+    
+    width:200px;
+    height: 280px;
+    background:white;
+    
+    border-radius: 10px;
+
+margin-top: 30px;
+margin-left: 25px;
+}
+.mi{
+    margin: 10px 0 0 10px;
+    float: left;
+   
+}
+.mi h2{
+padding: 10px 0 0 10px;
+font-size:10px;
+
+}
+.mi p{
+    padding: 2px 0 0 10px;
+    color: gray;
+}
+.cat1 i{
+    float: right;
+    padding: 10px 10px 0 0;
+    margin: 18px 10px 0 0;
+}
+.cat1 img{
+    width:150px;
+    height:80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cat1 .ic{
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+ .cat1 .ic {
+    margin-left:20px;
+    color: gray;
+}
+.ic i span{
+font-size:8px;
+}
+.rent{
+    margin-top:15px;
+    display: flex;
+}
+.rent h4{
+    
+    font-size:15px;
+    margin-top: 15px;
+    margin-left:10px;
+    font-weight: bolder;
+}
+.rent a{
+    
+    margin-top: 10px;
+margin-left:15px;
+text-decoration: none;
+width: 80px;
+padding-top: 5px;
+text-align: center;
+height:25px;
+background: blue;
+font-size: 12px;
+color: white;
+border: none;
+border-radius: 5px;
+} 
+.p1{
+    position: absolute;
+    top:330px;
+    left: 20px;
+}
+.p1 p{
+    font-size: 12px;
+}
+.mix{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+   
+    top:1020px;
+    left: 25px;
+    
+}
+.mix .car2 {
+    width: 250px;
+    background:white;
+   margin-top: 20px;
+    height: 280px;
+    border-radius: 5px;
+}
+.mi{
+    margin: 10px 0 0 10px;
+    float: left;
+   
+}
+.mi h2{
+padding: 10px 0 0 10px;
+font-size:10px;
+
+}
+.mi p{
+    padding: 2px 0 0 10px;
+    color: gray;
+}
+.car2 i{
+    float: right;
+    padding: 10px 10px 0 0;
+    margin: 18px 10px 0 0;
+}
+.car2 img{
+    width:150px;
+    height:80px;
+    margin-top: 20px;
+    margin-left:40px;
+}
+.car2 .ic{
+    width:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+ .car2 .ic {
+    margin-left:25px;
+    padding-left: 20px;
+    color: gray;
+}
+.car2 .ic i{
+    padding-left: 20px;
+}
+.ic i span{
+font-size:8px;
+}
+ .car2 .rent{
+    margin-top:15px;
+    margin-left:15px;
+    display: flex;
+}
+.rent h4{
+    
+    font-size:15px;
+    margin-top: 15px;
+    margin-left:10px;
+    font-weight: bolder;
+}
+ .car2 .rent a{
+    
+    margin-top: 10px;
+margin-left:40px;
+text-decoration: none;
+width: 80px;
+padding-top: 5px;
+text-align: center;
+height:25px;
+background: blue;
+font-size: 12px;
+color: white;
+border: none;
+border-radius: 5px;
+} 
+#btn2{
+    position: absolute;
+    top: 2560px;
+    left: 95px;
+    padding: 5px 10px 5px 10px;
+    background: blue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.mor{
+    position: absolute;
+    top:2630px;
+    left: 25px;
+}
+.mor h3{
+    margin-top: 10px;
+    color:blue;
+    font-size: 30px;
+    font-weight:700;
+}
+.mor p{
+    margin-top:10px;
+    color: gray;
+    font-size: 12px;
+}
+.about{
+    position: absolute;
+    top: 2750px;
+    left: 25px;
+}
+.about ul{
+    padding: 10px;
+}
+.soc{
+    position: absolute;
+    top: 2750px;
+    left:230px;
+
+}
+.soc ul{
+    padding: 10px;
+}
+.com{
+    position: absolute;
+    top:2930px;
+    left: 25px;
+}
+.com ul{
+    padding: 10px;
+}
+.pp
+{
+    width: 350px;
+position: absolute;
+top:3100px;
+left: 30px;
+display: flex;
+justify-content: space-between;
+}
+.pp p{
+    font-weight: 700;
+}
+.cop{
+    position: absolute;
+    top:3160px;
+    left: 25px;
+    
+}
+.cop p{
+    font-weight: 700;
+}
+
+
+
